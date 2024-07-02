@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #222;
+    color: #fff ;
+    font-family: system-ui;
+}
+.crud{
+    width: 80%;
+    margin: auto;
+}
+.header{
+    text-align: center;
+    text-transform: uppercase ;
+    margin: 10px 0;
+}
+input{
+    width: 100%;
+    height:30px;
+    background-color: #111;
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin: 5px 0;
+    color: white;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+input:focus{
+    cursor: pointer;
+    background-color: #000;
+    transform: scale(1.1);
+    letter-spacing: 2px;
+}
+.price input{
+    width:20%;
+}
+#total{
+    background-color: #8d0c0c;
+    padding: 5px 2px;
+    border-radius: 4px;
+}
+#total::before{
+    content: "total: ";
+}
+
+button{
+    cursor: pointer;
+    width:100%;
+    height: 30px;
+    border: none;
+    background-color: #470857;
+    color: #eee;
+    border-radius: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #590a6d;
+    letter-spacing: 2px;
+}
+
+ .btnsearch{
+    display: flex;
+    justify-content: space-between;
+ }
+ .btnsearch button{
+    width: 45%;
+ }
+ #deleteAll{
+    margin: 20px auto;
+ }
+
+table{
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+}
+
+th{
+    text-transform: uppercase;
+}
+th,td{
+    padding: 5px;
+}
+/* jkghj */
